@@ -1388,9 +1388,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-customizable@npm:^7.4.0":
-  version: 7.4.0
-  resolution: "cz-customizable@npm:7.4.0"
+"cz-customizable@npm:^7.5.0":
+  version: 7.5.0
+  resolution: "cz-customizable@npm:7.5.0"
   dependencies:
     editor: "npm:1.0.0"
     find-config: "npm:^1.0.0"
@@ -1401,7 +1401,7 @@ __metadata:
   bin:
     cz-cust: standalone.js
     cz-customizable: standalone.js
-  checksum: 10c0/0bb7a05426f194aea69859cee6d58cc318687b21f4e27e9225e9abb440d5c66c012cb48e3cd4cab96bd2ffce7a6961c97f26741798d2ec3edf0e1395266bd3b6
+  checksum: 10c0/3593e5ad60d32b75f935a58d55cb935d52d107066585c4d8e1d694ae0f7ab6fde802d704a9df205f9c6404259373b6a732440c8e85789d355e77c82b1d4ea6a3
   languageName: node
   linkType: hard
 
@@ -1820,7 +1820,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fdir@npm:^6.4.4, fdir@npm:^6.4.6":
+"fdir@npm:^6.4.4":
   version: 6.4.6
   resolution: "fdir@npm:6.4.6"
   peerDependencies:
@@ -1829,6 +1829,18 @@ __metadata:
     picomatch:
       optional: true
   checksum: 10c0/45b559cff889934ebb8bc498351e5acba40750ada7e7d6bde197768d2fa67c149be8ae7f8ff34d03f4e1eb20f2764116e56440aaa2f6689e9a4aa7ef06acafe9
+  languageName: node
+  linkType: hard
+
+"fdir@npm:^6.5.0":
+  version: 6.5.0
+  resolution: "fdir@npm:6.5.0"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: 10c0/e345083c4306b3aed6cb8ec551e26c36bab5c511e99ea4576a16750ddc8d3240e63826cc624f5ae17ad4dc82e68a253213b60d556c11bfad064b7607847ed07f
   languageName: node
   linkType: hard
 
@@ -2987,7 +2999,7 @@ __metadata:
     "@types/react": "npm:19.1.10"
     "@types/react-dom": "npm:^19.1.7"
     "@types/react-scroll": "npm:^1.8.10"
-    cz-customizable: "npm:^7.4.0"
+    cz-customizable: "npm:^7.5.0"
     eslint: "npm:9.33.0"
     gh-pages: "npm:^6.3.0"
     husky: "npm:^9.1.7"
@@ -2997,7 +3009,7 @@ __metadata:
     react-responsive-carousel: "npm:^3.2.23"
     react-scroll: "npm:^1.9.3"
     sass: "npm:^1.90.0"
-    vite: "npm:^7.1.2"
+    vite: "npm:^7.1.3"
   languageName: unknown
   linkType: soft
 
@@ -3786,12 +3798,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^7.1.2":
-  version: 7.1.2
-  resolution: "vite@npm:7.1.2"
+"vite@npm:^7.1.3":
+  version: 7.1.3
+  resolution: "vite@npm:7.1.3"
   dependencies:
     esbuild: "npm:^0.25.0"
-    fdir: "npm:^6.4.6"
+    fdir: "npm:^6.5.0"
     fsevents: "npm:~2.3.3"
     picomatch: "npm:^4.0.3"
     postcss: "npm:^8.5.6"
@@ -3837,7 +3849,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/4ed825b20bc0f49db99cd382de9506b2721ccd47dcebd4a68e0ef65e3cdd2347fded52b306c34178308e0fd7fe78fd5ff517623002cb00710182ad3012c92ced
+  checksum: 10c0/a0aa418beab80673dc9a3e9d1fa49472955d6ef9d41a4c9c6bd402953f411346f612864dae267adfb2bb8ceeb894482369316ffae5816c84fd45990e352b727d
   languageName: node
   linkType: hard
 

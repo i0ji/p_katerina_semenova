@@ -458,10 +458,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.33.0, @eslint/js@npm:^9.33.0":
-  version: 9.33.0
-  resolution: "@eslint/js@npm:9.33.0"
-  checksum: 10c0/4c42c9abde76a183b8e47205fd6c3116b058f82f07b6ad4de40de56cdb30a36e9ecd40efbea1b63a84d08c206aadbb0aa39a890197e1ad6455a8e542df98f186
+"@eslint/js@npm:9.34.0, @eslint/js@npm:^9.34.0":
+  version: 9.34.0
+  resolution: "@eslint/js@npm:9.34.0"
+  checksum: 10c0/53f1bfd2a374683d9382a6850354555f6e89a88416c34a5d34e9fbbaf717e97c2b06300e8f93e5eddba8bda8951ccab7f93a680e56ded1a3d21d526019e69bab
   languageName: node
   linkType: hard
 
@@ -933,12 +933,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:19.1.10":
+"@types/react@npm:*":
   version: 19.1.10
   resolution: "@types/react@npm:19.1.10"
   dependencies:
     csstype: "npm:^3.0.2"
   checksum: 10c0/fb583deacd0a815e2775dc1b9f764532d8cacb748ddd2c2914805a46c257ce6c237b4078f44009692074db212ab61a390301c6470f07f5aa5bfdeb78a2acfda1
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:19.1.11":
+  version: 19.1.11
+  resolution: "@types/react@npm:19.1.11"
+  dependencies:
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/639b225c2bbcd4b8a30e1ea7a73aec81ae5b952a4c432460b48c9881c9d12e76645c9032d24f15eefae9985a12d5cb26557fe10e9850b2da0fabfb0a1e2d16bd
   languageName: node
   linkType: hard
 
@@ -1388,9 +1397,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-customizable@npm:^7.5.0":
-  version: 7.5.0
-  resolution: "cz-customizable@npm:7.5.0"
+"cz-customizable@npm:^7.5.1":
+  version: 7.5.1
+  resolution: "cz-customizable@npm:7.5.1"
   dependencies:
     editor: "npm:1.0.0"
     find-config: "npm:^1.0.0"
@@ -1401,7 +1410,7 @@ __metadata:
   bin:
     cz-cust: standalone.js
     cz-customizable: standalone.js
-  checksum: 10c0/3593e5ad60d32b75f935a58d55cb935d52d107066585c4d8e1d694ae0f7ab6fde802d704a9df205f9c6404259373b6a732440c8e85789d355e77c82b1d4ea6a3
+  checksum: 10c0/7fbe2ad299a412e4f00f3afa254959b4c98ff9bbf171293b949ac86fc3bff8e32d8e621e753bd71bdfa9c50f9aa3d5a6871506c98f5ffe6be71995dfc785fe93
   languageName: node
   linkType: hard
 
@@ -1659,9 +1668,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.33.0":
-  version: 9.33.0
-  resolution: "eslint@npm:9.33.0"
+"eslint@npm:9.34.0":
+  version: 9.34.0
+  resolution: "eslint@npm:9.34.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.12.1"
@@ -1669,7 +1678,7 @@ __metadata:
     "@eslint/config-helpers": "npm:^0.3.1"
     "@eslint/core": "npm:^0.15.2"
     "@eslint/eslintrc": "npm:^3.3.1"
-    "@eslint/js": "npm:9.33.0"
+    "@eslint/js": "npm:9.34.0"
     "@eslint/plugin-kit": "npm:^0.3.5"
     "@humanfs/node": "npm:^0.16.6"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
@@ -1705,7 +1714,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/1e1f60d2b62d9d65553e9af916a8dccf00eeedd982103f35bf58c205803907cb1fda73ef595178d47384ea80d8624a182b63682a6b15d8387e9a5d86904a2a2d
+  checksum: 10c0/ba3e54fa0c8ed23d062f91519afaae77fed922a6c4d76130b6cd32154bcb406aaea4b3c5ed88e0be40828c1d5b6921592f3947dbdc5e2043de6bd7aa341fe5ea
   languageName: node
   linkType: hard
 
@@ -2995,12 +3004,12 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^19.8.1"
     "@commitlint/config-conventional": "npm:^19.8.1"
-    "@eslint/js": "npm:^9.33.0"
-    "@types/react": "npm:19.1.10"
+    "@eslint/js": "npm:^9.34.0"
+    "@types/react": "npm:19.1.11"
     "@types/react-dom": "npm:^19.1.7"
     "@types/react-scroll": "npm:^1.8.10"
-    cz-customizable: "npm:^7.5.0"
-    eslint: "npm:9.33.0"
+    cz-customizable: "npm:^7.5.1"
+    eslint: "npm:9.34.0"
     gh-pages: "npm:^6.3.0"
     husky: "npm:^9.1.7"
     jiti: "npm:^2.5.1"
@@ -3008,7 +3017,7 @@ __metadata:
     react-dom: "npm:^19.1.1"
     react-responsive-carousel: "npm:^3.2.23"
     react-scroll: "npm:^1.9.3"
-    sass: "npm:^1.90.0"
+    sass: "npm:^1.91.0"
     vite: "npm:^7.1.3"
   languageName: unknown
   linkType: soft
@@ -3411,9 +3420,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.90.0":
-  version: 1.90.0
-  resolution: "sass@npm:1.90.0"
+"sass@npm:^1.91.0":
+  version: 1.91.0
+  resolution: "sass@npm:1.91.0"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -3424,7 +3433,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/cd882a61811447c079cdc78b41f3be8164f2a2ced56e0b256b33da2de383a5f10e11ed15f8080bd832e6df302238e11649b07eb5f6e7d257d9b6982a8325d269
+  checksum: 10c0/5be1c98f7a618cb5f90b62f63d2aa0f78f9bf369c93ec7cd9880752a26b0ead19aa63cc341e8a26ce6c74d080baa5705f1685dff52fe6a3f28a7828ae50182b6
   languageName: node
   linkType: hard
 

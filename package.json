@@ -29,6 +29,9 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './commitlint.config.js'"
     }
   },
+  "resolutions": {
+    "tmp": "^0.2.4"
+  },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

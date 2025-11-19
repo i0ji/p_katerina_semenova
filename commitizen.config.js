@@ -4,73 +4,61 @@ module.exports = {
   types: [
     {
       value: "build",
-      name: "build:     Сборка проекта или изменения внешних зависимостей"
+      name: "build:     out builds",
     },
-    { value: "ci", name: "ci:        Настройка CI и работа со скриптами" },
-    { value: "docs", name: "docs:      Обновление документации" },
-    { value: "feat", name: "feat:      Добавление нового функционала" },
-    { value: "fix", name: "fix:       Исправление ошибок" },
     {
-      value: "perf",
-      name: "perf:      Изменения направленные на улучшение производительности"
+      value: "chore",
     },
+    {
+      value: "ci",
+      name: "ci/cd",
+    },
+    {
+      value: "docs",
+      name: "docs:      docs update",
+    },
+    {
+      value: "feat",
+      name: "feat:      add new features",
+    },
+    { value: "fix", name: "fix:       fix bugs" },
     {
       value: "refactor",
-      name:
-        "refactor:  Правки кода без исправления ошибок или добавления новых функций"
     },
-    { value: "revert", name: "revert:    Откат на предыдущие коммиты" },
+    {
+      value: "revert",
+      name: "revert:    reset/revert commit",
+    },
     {
       value: "style",
-      name:
-        "style:     Правки по кодстайлу (табы, отступы, точки, запятые и т.д.)"
+      name: "style:     style/implementation features",
     },
-    { value: "test", name: "test:      Добавление тестов" }
+    { value: "tests" },
   ],
 
-  // Область. Она характеризует фрагмент кода, которую затронули изменения
   scopes: [
     { name: "components" },
-    { name: "tutorial" },
-    { name: "catalog" },
-    { name: "product" }
+    { name: "environment" },
+    { name: "full product" },
   ],
 
-  // Возможность задать спец ОБЛАСТЬ для определенного типа коммита (пример для 'fix')
-  /*
-  scopeOverrides: {
-    fix: [
-      {name: 'style'},
-      {name: 'e2eTest'},
-      {name: 'unitTest'}
-    ]
-  },
-  */
-
-  // Поменяем дефолтные вопросы
   messages: {
-    type: "Какие изменения вы вносите?",
-    scope: "\nВыберите ОБЛАСТЬ, которую вы изменили (опционально):",
-    // Спросим если allowCustomScopes в true
-    customScope: "Укажите свою ОБЛАСТЬ:",
-    subject: "Напишите КОРОТКОЕ описание в ПОВЕЛИТЕЛЬНОМ наклонении:\n",
-    body:
-      'Напишите ПОДРОБНОЕ описание (опционально). Используйте "|" для новой строки:\n',
-    breaking: "Список BREAKING CHANGES (опционально):\n",
+    type: "Changes type:",
+    scope: "\nChoose scope:",
+    customScope: "Custom scope:",
+    subject: "Short description:\n",
+    body: 'Full description. Use "|" for new row:\n',
+    breaking: "Breaking changes:\n",
     footer:
-      "Место для мета данных (тикетов, ссылок и остального). Например: SECRETMRKT-700, SECRETMRKT-800:\n",
-    confirmCommit: "Вас устраивает получившийся коммит?"
+      "Meta (issues, links):\n",
+    confirmCommit: "Confirm",
   },
 
-  // Разрешим собственную ОБЛАСТЬ
   allowCustomScopes: true,
 
-  // Запрет на Breaking Changes
   allowBreakingChanges: false,
 
-  // Префикс для нижнего колонтитула
-  footerPrefix: "МЕТА ДАННЫЕ:",
+  footerPrefix: "Version:",
 
-  // limit subject length
-  subjectLimit: 72
+  subjectLimit: 72,
 };

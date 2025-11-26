@@ -951,12 +951,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:19.2.6":
+"@types/react@npm:*":
   version: 19.2.6
   resolution: "@types/react@npm:19.2.6"
   dependencies:
     csstype: "npm:^3.2.2"
   checksum: 10c0/23b1100f88662ce9f9e4fcca3a2b4ef9fff1ecde24ede2b2dcbd07731e48d6946fd7fd156cd133f5b25321694b0569cd9b8dd30b22c4e076d1cf4c8cdd9a75cb
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:19.2.7":
+  version: 19.2.7
+  resolution: "@types/react@npm:19.2.7"
+  dependencies:
+    csstype: "npm:^3.2.2"
+  checksum: 10c0/a7b75f1f9fcb34badd6f84098be5e35a0aeca614bc91f93d2698664c0b2ba5ad128422bd470ada598238cebe4f9e604a752aead7dc6f5a92261d0c7f9b27cfd1
   languageName: node
   linkType: hard
 
@@ -1396,17 +1405,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-customizable@npm:^5.5.0":
-  version: 5.10.0
-  resolution: "cz-customizable@npm:5.10.0"
+"cz-customizable@npm:^7.5.1":
+  version: 7.5.1
+  resolution: "cz-customizable@npm:7.5.1"
   dependencies:
     editor: "npm:1.0.0"
     find-config: "npm:^1.0.0"
-    inquirer: "npm:^6.2.2"
-    lodash: "npm:^4.17.11"
+    inquirer: "npm:^6.3.1"
+    lodash: "npm:^4.17.19"
     temp: "npm:^0.9.0"
     word-wrap: "npm:^1.2.3"
-  checksum: 10c0/669fad5b6097c24af66befbaf8cf119618ccf3ecc3c6254083d714be2224512b6af41fdbcc332087b4dc946dc0975ed79f711c6d4dfd8e656c0357ad82125029
+  bin:
+    cz-cust: standalone.js
+    cz-customizable: standalone.js
+  checksum: 10c0/7fbe2ad299a412e4f00f3afa254959b4c98ff9bbf171293b949ac86fc3bff8e32d8e621e753bd71bdfa9c50f9aa3d5a6871506c98f5ffe6be71995dfc785fe93
   languageName: node
   linkType: hard
 
@@ -2258,7 +2270,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:^6.2.2":
+"inquirer@npm:^6.3.1":
   version: 6.5.2
   resolution: "inquirer@npm:6.5.2"
   dependencies:
@@ -2574,7 +2586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.11, lodash@npm:^4.17.12":
+"lodash@npm:^4.17.12, lodash@npm:^4.17.19":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 10c0/d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
@@ -2968,10 +2980,10 @@ __metadata:
     "@commitlint/cli": "npm:^20.1.0"
     "@commitlint/config-conventional": "npm:^20.0.0"
     "@eslint/js": "npm:^9.39.1"
-    "@types/react": "npm:19.2.6"
+    "@types/react": "npm:19.2.7"
     "@types/react-dom": "npm:^19.2.3"
     "@types/react-scroll": "npm:^1.8.10"
-    cz-customizable: "npm:^5.5.0"
+    cz-customizable: "npm:^7.5.1"
     eslint: "npm:9.39.1"
     gh-pages: "npm:^6.3.0"
     husky: "npm:^9.1.7"
@@ -2980,8 +2992,8 @@ __metadata:
     react-dom: "npm:^19.2.0"
     react-responsive-carousel: "npm:^3.2.23"
     react-scroll: "npm:^1.9.3"
-    sass: "npm:^1.94.1"
-    vite: "npm:^7.2.2"
+    sass: "npm:^1.94.2"
+    vite: "npm:^7.2.4"
   languageName: unknown
   linkType: soft
 
@@ -3389,9 +3401,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.94.1":
-  version: 1.94.1
-  resolution: "sass@npm:1.94.1"
+"sass@npm:^1.94.2":
+  version: 1.94.2
+  resolution: "sass@npm:1.94.2"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -3402,7 +3414,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/ab6170dc272245940a271e7b24bc87ef0b5c732ff3b2b4b4ac50d6e714bc19bcc4537c058596486d82fe3d96d69821189e4b49c663c8a59ba475dbeff0cb1cd1
+  checksum: 10c0/49a656dfab58299165ef94e71483a333972daee68c49fa542858d4912accdfb1707338226a165b1a2dfcdb2509fcda5a5b4f3780d14e49b6d38d93c8043475d3
   languageName: node
   linkType: hard
 
@@ -3773,9 +3785,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^7.2.2":
-  version: 7.2.2
-  resolution: "vite@npm:7.2.2"
+"vite@npm:^7.2.4":
+  version: 7.2.4
+  resolution: "vite@npm:7.2.4"
   dependencies:
     esbuild: "npm:^0.25.0"
     fdir: "npm:^6.5.0"
@@ -3824,7 +3836,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/9c76ee441f8dbec645ddaecc28d1f9cf35670ffa91cff69af7b1d5081545331603f0b1289d437b2fa8dc43cdc77b4d96b5bd9c9aed66310f490cb1a06f9c814c
+  checksum: 10c0/26aa0cad01d6e00f17c837b2a0587ab52f6bd0d0e64606b4220cfc58fa5fa76a4095ef3ea27c886bea542a346363912c4fad9f9462ef1e6757262fedfd5196b2
   languageName: node
   linkType: hard
 

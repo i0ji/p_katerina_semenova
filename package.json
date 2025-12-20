@@ -34,7 +34,7 @@
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "vite": "^7.2.7"
+    "vite": "^7.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
@@ -50,6 +50,6 @@
     "jiti": "^2.6.1",
     "react-responsive-carousel": "^3.2.23",
     "react-scroll": "^1.9.3",
-    "sass": "^1.96.0"
+    "sass": "^1.97.1"
   }
 }

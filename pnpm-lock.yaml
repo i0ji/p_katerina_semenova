@@ -5,6 +5,11 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
+  lodash@>=4.0.0 <=4.17.22: '>=4.17.23'
+  npm@<5.7.1: '>=5.7.1'
+  npm@<6.13.3: '>=6.13.3'
+  npm@<6.13.4: '>=6.13.4'
+  npm@<6.14.6: '>=6.14.6'
   tmp: ^0.2.4
 
 importers:

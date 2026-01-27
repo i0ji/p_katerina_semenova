@@ -11,6 +11,7 @@
       "config": "./commitizen.config.js"
     }
   },
+  "packageManager": "pnpm@10.28.2",
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -32,7 +33,6 @@
     "tmp": "^0.2.4"
   },
   "dependencies": {
-    "latest": "^0.2.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "vite": "^7.3.1"
